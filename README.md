@@ -1,9 +1,19 @@
-# embedded-jmxtrans-demo
+#  monitoring-with-collectd-jmxtrans-graphite-bootstrap
+
+This repos is a bootstrap for Java Monitoring with Collectd, JMXTrans and Graphite.
+Run scripts/start.sh will create and provision an Ubuntu VM and configure & run the tools on a sample project.
+You will be allowed to access to the sample web application from the host at localhost:8091/cocktail-app/ and to the Graphite web application at localhost:8090
 
 
-JMX Exporter Demo Web Application.
+# Prerequisites
+ - Shell
+ - Vagrant
 
 ## Configuration
+
+You can studie all the configuration realized to run up Collectdm JMXTrans and Graphite in the file scripts/provisioning.sh
+
+The configurations to monitor the sample application are specified below.
 
 ### Queries
 
