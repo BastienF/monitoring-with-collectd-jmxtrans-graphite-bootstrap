@@ -2,7 +2,7 @@
 
 This repos is a bootstrap for Java Monitoring with Collectd, JMXTrans and Graphite.
 Run scripts/start.sh will create and provision an Ubuntu VM and configure & run the tools on a sample project.
-You will be allowed to access to the sample web application from the host at localhost:8091/cocktail-app/ and to the Graphite web application at localhost:8090
+You will be allowed to access to the sample web application from the host at [localhost:8091/cocktail-app/](http://localhost:8091/cocktail-app/) and to the Graphite web application at [localhost:8090](http://localhost:8090)
 
 
 # Prerequisites
